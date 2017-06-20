@@ -54,9 +54,9 @@ It is a fixed date on which a product or software is due to become available for
 Jenkins ; Ansible; Github ; Puppet ; Docker ; Nagios ; Chef; Monit ; Jira ; Rudder
 
 4- why is it important to build the software in the test regions before delivering it to production?
+Because the product/software needs to be tested; bugs need to be fixed. This allows changes/fixes to be implemented before the deployment to production in order to ensure a delivery of a quality product/software to users.
+Also it’s very critical to implement changes during production. That’s why fixes/changes/builds should be implemented in tests regions like stage or dev environments.
 
-Because the product/software needs to be tested; bugs need to be fixed. This allows changes/fixes to be implemented before the deployment to production in order to ensure a delivery of a quality product/software.
-Also it’s very critical to implement changes during production.
 
 5- create a project in your github repository called project4 and in project 4 , create a file called project11
 
