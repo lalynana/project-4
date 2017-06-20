@@ -1,0 +1,65 @@
+Project11
+
+1- Basics concepts
+
+a- What is a DevOps?
+
+He is a professional who ensures the collaboration and communication of both software developers and IT professionals while establishing a culture and environment where building, testing, and releasing software can happen rapidly, frequently, and more reliably.
+
+b- What is GIT?
+
+It is a distributed version control system, used for source code management and file changes tracking. It helps coordinating work on files among multiple people.
+
+c- what is the difference between git ans svn?
+
+svn is a Centralized Revision Control System, and git is a Distributed Revision Control System.
+When you commit to svn, you're contacting a central repository, synchronizing with the centralized versions, creating a changelist, and then sending that changelist back to the centralized repository.  All users use and share the same repository, possibly with branching.  If 2 users want to share code, the only way they can do so is by checking into the repository and then each doing a sync.
+In git, when you check out a repository, you're getting a complete clone of the whole thing -- all revisions of all files, all the metadata, everything.  You make changes locally, commit to your local copy of the repository, and then push those changes to another repository when you want to publish them or share them with other users. 2 or more users can collaborate on a new feature without impacting the centralized repository.
+
+d- what continuous integration?
+
+It is a development practice where developers integrate/merge code changes into a shared/centralized repository several times a day. Each check-in is then verified by an automated build, allowing teams to detect problems early.
+
+e- what is continuous delivery?
+
+
+It is a development practice where code changes are built, tested, and prepared for a release to production. It helps teams to produce software faster and in short cycles, ensuring that the software can be reliably released at any time. 
+f- what is scrum?
+
+It is a framework used by teams to manage their work. With scrum, the product is built in a series of fixed-length iterations called sprints that give teams a framework for shipping software on a regular cadence.
+Scrum is about prioritizing the work that matters most and break it down into manageable chunks and collaborating and communicating both with the people who are doing the work and the people who need the work done. 
+It’s about delivering often and responding to feedback, increasing business value by ensuring that customers get what they actually want.
+
+g- What is agile methodology?
+
+It is a work model that help teams respond to unpredictability through incremental, iterative work cadences and empirical feedback. 
+It creates an environment where people are focused on communications, on speed (encourage rapid and iterative development of the product in small releases), lean (focuses on shortening timeframe and cost and on improved quality), and learning (focuses on improvement during and after product development) and also are flexible and responsive (ready to adapt to expected or unexpected change at any time).
+
+h- what is release calendar?
+
+It is a schedule of different upcoming releases with some specific details/highlights regarding the release.
+
+i- what is release date?
+
+It is a fixed date on which a product or software is due to become available for the public.
+
+2- give 4 raisons why companies should consider the DevOps method
+•	Higher team engagement and productivity
+•	Better collaboration and communication between involved teams
+•	Faster resolution of issues and faster software delivery 
+•	Less complexity in management
+
+3- what are some automation tools used in the DevOps environment?
+
+Jenkins ; Ansible; Github ; Puppet ; Docker ; Nagios ; Chef; Monit ; Jira ; Rudder
+
+4- why is it important to build the software in the test regions before delivering it to production?
+
+Because the product/software needs to be tested; bugs need to be fixed. This allows changes/fixes to be implemented before the deployment to production in order to ensure a delivery of a quality product/software.
+Also it’s very critical to implement changes during production.
+
+5- create a project in your github repository called project4 and in project 4 , create a file called project11
+
+6- copy your homework11 answers into the file project11 and commit it.
+
+7- What is the url to access your github project11 file?
